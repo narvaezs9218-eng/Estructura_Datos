@@ -1,0 +1,78 @@
+=== STOCK INTELIGENTE ===
+
+Orden ALEATORIO:
+678 234 901 123 567 765 345 456 0 876 1012 
+
+Orden ASCENDENTE:
+0 123 234 345 456 567 678 765 876 901 1012 
+
+=== BST ALEATORIO ===
+        1012
+    901
+            876
+        765
+678
+        567
+                456
+            345
+    234
+        123
+            0
+Altura: 4
+
+=== BST ORDENADO ===
+                                        1012
+                                    901
+                                876
+                            765
+                        678
+                    567
+                456
+            345
+        234
+    123
+0
+Altura: 10
+
+=== BUSQUEDAS EN BST ALEATORIO ===
+
+Codigo buscado: 650
+Encontrado: false
+Comparaciones: 3
+Camino: 678 -> 234 -> 567 -> null
+
+Codigo buscado: 700
+Encontrado: false
+Comparaciones: 3
+Camino: 678 -> 901 -> 765 -> null
+
+=== BUSQUEDAS EN BST ORDENADO ===
+
+Codigo buscado: 650
+Encontrado: false
+Comparaciones: 7
+Camino: 0 -> 123 -> 234 -> 345 -> 456 -> 567 -> 678 -> null
+
+Codigo buscado: 700
+Encontrado: false
+Comparaciones: 8
+Camino: 0 -> 123 -> 234 -> 345 -> 456 -> 567 -> 678 -> 765 -> null
+
+=== COMPARACION FINAL ===
+Altura con datos aleatorios: 4
+Altura con datos ordenados: 10
+
+Conclusion: el orden de insercion modifica la forma del BST. Cuando los datos llegan ordenados, el arbol puede degenerarse y aumentar considerablemente su altura.
+
+=== STOCK ORDENADO POR CODIGO ===
+0 - NVZTORE - Hombre - $100,00
+123 - Chaqueta - Unisex - $50,00
+234 - Sacos - Hombre - $30,00
+345 - Pantalones - Hombre - $45,00
+456 - Camisas - Hombre - $20,00
+567 - Camisetas - Unisex - $25,00
+678 - Correas - Mujer - $40,00
+765 - Chamarras - Unisex - $90,00
+876 - Buzos - Mujer - $60,00
+901 - Pants - Mujer - $70,00
+1012 - Vestidos - Mujer - $55,00
