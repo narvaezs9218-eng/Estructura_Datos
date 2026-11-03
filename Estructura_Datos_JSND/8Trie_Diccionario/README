@@ -1,0 +1,34 @@
+# Guía 11: Estructura de Datos Trie (Árbol de Prefijos) - Motor de Autocompletado SVZTORE
+
+Repositorio correspondiente a la asignatura **Estructura de Datos II**.
+
+## 🎯 Objetivo de la Actividad
+Implementar y probar un **Trie (Árbol de Prefijos)** en Java para optimizar las operaciones de búsqueda de texto y proveer un mini motor de autocompletado y sugerencias inteligentes aplicado al inventario de la tienda de ropa **SVZTORE**.
+
+---
+
+## 👕 Catálogo de Productos (`SVZTORE`)
+El Trie almacena y indexa eficientemente los artículos de la tienda por sus nombres:
+1. `chaqueta`
+2. `sacos`
+3. `camisas`
+4. `pantalon`
+5. `correas`
+6. `chamarras`
+7. `buzos`
+8. `pants`
+9. `camisetas`
+10. `vestidos`
+
+---
+
+> **Funcionamiento:** A diferencia de un BST tradicional, el Trie organiza los datos carácter por carácter de forma jerárquica. Las palabras que comparten prefijos (como `camisas` y `camisetas`) reutilizan los mismos nodos iniciales, reduciendo el costo de búsqueda temporal a una complejidad de $\mathcal{O}(m)$ (donde $m$ es la longitud de la palabra).
+
+---
+
+## 🔍 Características y Métodos Implementados
+* **`insertar(String palabra)`:** Almacena cadenas de texto dividiéndolas en nodos de caracteres individuales, asegurando que no se dupliquen elementos.
+* **`buscar(String palabra)`:** Verifica si una palabra completa existe dentro de la estructura de manera exacta, ignorando diferencias de mayúsculas y minúsculas.
+* **`empiezaCon(String prefijo)`:** Comprueba si existe al menos una palabra registrada que comience con el prefijo ingresado.
+* **`sugerir(String prefijo, int limite)`:** Realiza un recorrido en profundidad (**DFS**) a partir del nodo final del prefijo para recolectar y devolver una lista limitada de sugerencias de autocompletado.
+
