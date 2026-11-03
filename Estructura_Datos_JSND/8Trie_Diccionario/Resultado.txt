@@ -1,0 +1,21 @@
+=== MOTOR DE BUSQUEDA Y AUTOCOMPLETADO SVZTORE (TRIE) ===
+Productos cargados en el Trie: 34
+
+--- Sugerencias de busqueda ---
+Prefijo "ca" -> [cama, camellos, camisas, camisetas, camisetillas]
+Prefijo "pa" -> [pan, panson, pantaleta, pantalon, pants]
+Prefijo "bu" -> [buscar, buscos, busos, buzos]
+Prefijo "ve" -> [vestir, vestira, vestidas, vestidores, vestidos]
+Prefijo "al" -> (sin sugerencias)
+Prefijo "svz" -> [svztore]
+Prefijo "sna" -> [snarvaez]
+Prefijo "xyz" -> (sin sugerencias)
+
+--- Verificaciones de inventario ---
+ Existe 'chaqueta'? true
+ Existe 'snarvaez'? true
+ Existe categoria o prefijo 'cam'? true
+ Existe categoria o prefijo 'pam'? false
+ Sugerencias para 'cam' (max 4): [cama, camellos, camisas, camisetas]
+
+---                 <<(*-*)>>                  ---
